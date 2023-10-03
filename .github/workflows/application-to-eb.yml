@@ -21,7 +21,7 @@ jobs:
           distribution: 'corretto' # AWS의 corretto JDK를 사용한다
 
       - name: Grant execute permission for gradlew
-        working-directory: ./server-app
+        working-directory: ./bukbu-deploy
         run: chmod +x ./gradlew
         shell: bash
 
